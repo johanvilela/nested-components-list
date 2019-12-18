@@ -79,15 +79,15 @@ function createComponentType3() {
 
 	let button1 = document.createElement('button');
 	button1.setAttribute('id', 'nested-add-item-type-1');
-	button1.innerHTML = 'Button 1'
+	button1.innerHTML = 'Add Nested Component Type 1'
 
 	let button2 = document.createElement('button');
 	button2.setAttribute('id', 'nested-add-item-type-2');
-	button2.innerHTML = 'Button 2'
+	button2.innerHTML = 'Add Nested Component Type 2'
 
 	let button3 = document.createElement('button');
 	button3.setAttribute('id', 'nested-add-item-type-3');
-	button3.innerHTML = 'Button 3'
+	button3.innerHTML = 'Add Nested Component Type 3'
 
 	setNestedButtons(button1, button2, button3);
 
